@@ -17,6 +17,8 @@ import { ComprasComponent } from './compras/compras.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { MessageModule } from 'primeng/message';
 import { SalirComponent } from './salir/salir.component';
+import { DestinosComponent } from './destinos/destinos.component';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { SalirComponent } from './salir/salir.component';
     HomeComponent,
     ComprasComponent,
     ContactoComponent,
-    SalirComponent
+    SalirComponent,
+    DestinosComponent
   ],
   imports: [
     BrowserModule,
